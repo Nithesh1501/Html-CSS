@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
 </head>
 <body>
     <header>
-            <div class = "hcontainer">
+            <div class = "innerheader">
                 <h1>NEWS BLOG</h1>
                 <h6>WORLDWIDE NEWS</h6>
             </div>
@@ -23,35 +23,36 @@
    
     <br><br>
     
-    <div class="bcontainer">
-        <section class="sec1">
-            <div class = "s1container">
-                <div id="selectcat">
-                    <label class="dropsubs" for= "Category"><b>SELECT CATEGORY</b></label><br><br>
+    <div class="bodycontainer">
+        <section class="section1">
+           <!-- <div class = "s1container">-->
+                <div id="selectcategory">
+                    <label class="dropdown" for= "Category"><b>SELECT CATEGORY</b></label><br><br>
                     <select name="Category" id="Category">
                     <option value="All">All</option>
                     <option value="Category 1">Category 1</option>
                     <option value="Category 2">Category 2</option>
-                    <option value="category 3">Category 3</option>
+                    <option value="Category 3">Category 3</option>
                     </select>
                 </div>
-            </div>
+            <!-- </div>-->
         
-            <div class="text_container">
+            <div class="main_title_container">
                <h1>ALL NEWS</h1>            
             </div>
 
             <div class ="Subscribe">
-                <label class="dropsubs" for="Category"><b> SUBSCRIBE</b></label><br><br>
-                <input type="email" id="email" placeholder="Email Address"><button id="Subscribe">Subscribe</button>
+                <label class="dropdown" for="Category"><b> SUBSCRIBE</b></label><br><br>
+                <input type="email" id="email" placeholder="Email Address"><button id="Subscribe_Button">Subscribe</button>
             </div>
         </section>
-        <hr>
+        
+        <hr class="horizontal_row_type1">
 
         <div class="main-content">
-        <section class="sec2">
+        <section class="section2">
             <img src="//dummyimage.com/150x150" alt="dummy" width="180" height="190">
-            <div class="content">
+            <div class="section2content">
                 <span class=title><b>Title One</b></span><br>
                 <span class ="subtitle">Posted on <b>29 June,2019</b> // Category: <b>Category One</b></span>
                 <p>
@@ -67,11 +68,11 @@
             </div>
         </section>
 
-        <hr class="hr1">
+        <hr class="horizontal_row_type2">
         
-        <section class="sec2">
+        <section class="section2">
             <img src="//dummyimage.com/150x150" alt="dummy" width="180" height="190">
-            <div class="content">
+            <div class="section2content">
                 <span class = "title"><b>Title Two</b></span><br>
                 <span class ="subtitle" >Posted on <b>22 June,2019</b> // Category: <b>Category Two</b></span>
                 <p>
@@ -86,11 +87,11 @@
             </div>
         </section>
 
-        <hr class="hr1">
+        <hr class="horizontal_row_type2">
 
-        <section class="sec2">
+        <section class="section2">
             <img src="//dummyimage.com/150x150" alt="dummy" width="180" height="190">
-            <div class="content">
+            <div class="section2content">
                 <span class="title"><b>Title Three</b></span><br>
                 <span class ="subtitle">Posted on <b>20 June,2019</b> // Category: <b>Category One</b></span>
                 <p>

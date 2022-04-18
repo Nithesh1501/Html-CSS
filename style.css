@@ -1,4 +1,3 @@
-/*code review*/
 body
 {
   font-family: 'Roboto Condensed', sans-serif;
@@ -31,7 +30,7 @@ h6{
   margin-bottom: -1rem;
 }
 
-.hcontainer
+.innerheader
 {
     border: 0.2rem solid orangered;
     text-align: center;
@@ -46,13 +45,13 @@ select{
   width: 200%;
   border-color: 1px solid black;
 }
-.bcontainer
+.bodycontainer
 {
   margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 3rem;
 }
-.sec1
+.section1
 {
 display: flex;
 flex-direction: row;
@@ -67,18 +66,18 @@ margin-bottom: 2rem;
   border-color: 1px solid black;
 
 }
-#Subscribe
+#Subscribe_Button
 {
   background-color: black;
   color: whitesmoke;
   padding: 0.5em;
 }
-.dropsubs
+.dropdown
 {
   color:#273852;
   display: flex;
 }
-.text_container
+.main_title_container
 {
   margin-left: 9rem;
   color: #273852;
@@ -96,7 +95,7 @@ margin-bottom: 2rem;
   border: 1px solid #273852;
 }
 
-hr {
+.horizontal_row_type1 {
   display: block;
   margin-top: 0.5em;
   margin-bottom: 2em;
@@ -106,7 +105,7 @@ hr {
   border-width: 1.5px;
 }
 
-.hr1
+.horizontal_row_type2
 {
   display: block;
   margin-top: 2em;
@@ -118,14 +117,15 @@ hr {
   opacity: 60%;
   width: 60rem;
 }
+
 p{
   width: 52rem;
 }
-.content
+.section2content
 {
   margin-left: 2rem;
 }
-.sec2
+.section2
 {
   display: flex;
   margin-left: 2rem;
@@ -163,23 +163,20 @@ footer
   }
   header
   {
-    width: 30rem;
+    width: 35rem;
   }
-  h1
+
+  .horizontal_row_type2
   {
-    margin-left: 1.5rem;
-  }
-  .hr1
-  {
-    width: 23rem;
+    width: 28rem;
     text-align: center;
   }
 
-  .bcontainer
+  .bodycontainer
   {
     margin-right: -1.6rem;
   }
-  .sec1
+  .section1
   {
     
     flex-direction: column;
@@ -195,19 +192,19 @@ footer
     width: 100%;
     margin-bottom: 5%;
   }
-  .text_container
+  .main_title_container
   {
   text-align: center;    
   order: -1;
   margin-left: -0.2rem;
   margin-top: -1rem;
   }
-  hr 
+  .horizontal_row_type1 
   {
     margin-top: 2rem;
-    width: 22rem
+    width: 26rem
   }
-  .dropsubs
+  .dropdown
   {
     flex-direction: column;
     margin-bottom: -3%;
@@ -220,7 +217,7 @@ footer
   .title{
     margin-bottom: 0.5rem;
   }
-  .content .subtitle
+  .section2content .subtitle
   {
     display: block;
     text-align: center;
@@ -232,10 +229,10 @@ footer
   }
   .Subscribe
   {
-    margin-left: 2rem;
+    margin-left: 0.2rem;
     margin-bottom: 2rem;
   }
-  #Subscribe
+  #Subscribe_Button
   {
     width: 10rem;
     margin-top: 1rem;
@@ -245,7 +242,7 @@ footer
     width: 28rem;
     padding-left: 3rem;
   }
-  .sec2
+  .section2
   {
     flex-direction: column;
     align-items: center;
@@ -257,7 +254,7 @@ footer
     width: 100%;
     text-align: justify;
   }
-  .content .title
+  .section2content .title
   {
     display: block;
     text-align: center;
@@ -265,42 +262,42 @@ footer
 }
 
 @media only screen 
-  and (max-device-width: 900px)
+  and (max-device-width: 950px)
   and (min-device-width: 500px) {
 
     header
     {
-      width: 55rem;
+      width: 60rem;
     }
     footer
     {
-      width: 55rem;
+      width: 60rem;
     }
-    .bcontainer
+    .bodycontainer
     {
       width: 50rem;
     }
-    .sec2
+    .section2
     {
       flex-direction: column;
       align-items: center;
     }
-    .dropsubs
+    .dropdown
     {
       flex-direction: column;
       margin-bottom: -3rem;
     }
-    .sec1
+    .section1
     {
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
     }
-    .hr
+    .horizontal_row_type1
     {
-      width: 40rem;
+      width: 50rem;
     }
-    .text_container
+    .main_title_container
     {
     text-align: center;    
     order: -1;
@@ -316,23 +313,23 @@ footer
     {
       width: 15rem;
     }
-    .hr1
+    .horizontal_row_type2
     {
-      width: 25rem;
+      width: 45em;
       margin-left: 2rem;
     }
     .Subscribe
     {
-      margin-left: 2rem;
+      margin-left: 1em;
       margin-bottom: 0rem;
 
     }
-    #Subscribe
+    #Subscribe_Button
     {
       margin-top: 2rem;
       margin-bottom: 0rem;
     }
-    .content .title
+    .section2content .title
     {
       display: block;
       text-align: center;
@@ -342,7 +339,7 @@ footer
     {
       margin-bottom: 1rem;
     }
-    .content .subtitle
+    .section2content .subtitle
     {
       display: block;
       text-align: center;
@@ -360,8 +357,8 @@ footer
 
 
   @media only screen 
-  and (min-device-width: 900px)
-  and (max-device-width: 1064px)
+  and (min-device-width: 950px)
+  and (max-device-width: 1073px)
   {
     header
     {
@@ -371,23 +368,28 @@ footer
     {
       width: 80em;
     }
-    .sec1
+    .section1
     {
       flex-direction: row;
       justify-content: space-between;
-    }
-    h1
-    {
-      margin-left: 5rem;
     }
     .Subscribe
     {
       margin-left: 5rem;
     }
-    .hr{
-      width: 50em;
+
+    .horizontal_row_type1{
+      width: 66em;
     }
-    .hr1{
+    .horizontal_row_type2{
+      width: 66em;
+    }
+    .innerheader
+    {
+      margin-left: -4em;
+    }
+    p
+    {
       width: 40em;
     }
   }
