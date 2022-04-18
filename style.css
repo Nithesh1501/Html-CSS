@@ -10,7 +10,11 @@ header
     display: flex;
     justify-content: center;
 }
-
+img
+{
+  width:190px;
+  height: 190px;
+}
 .title{
   margin-top: auto;
   color: #273852;
