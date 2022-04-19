@@ -3,7 +3,7 @@ body
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
 }
-header
+.head_container
 {
     background-color: #273852;
     margin: -1rem;
@@ -34,7 +34,7 @@ h6{
   margin-bottom: -1rem;
 }
 
-.innerheader
+header
 {
     border: 0.2rem solid orangered;
     text-align: center;
@@ -125,7 +125,7 @@ margin-bottom: 2rem;
 p{
   width: 52rem;
 }
-.section2content
+.information
 {
   margin-left: 2rem;
 }
@@ -137,7 +137,7 @@ p{
   
 }
 
-.main-button{
+.continue-button{
   background-color: #d45d47;
   color: whitesmoke;
   padding: 0.5em 1.5em 0.5em 1.5em;
@@ -165,7 +165,7 @@ footer
     .body{
       font-size:12px;
   }
-  header
+  .head_container
   {
     width: 35rem;
   }
@@ -221,7 +221,7 @@ footer
   .title{
     margin-bottom: 0.5rem;
   }
-  .section2content .subtitle
+  .information .subtitle
   {
     display: block;
     text-align: center;
@@ -258,7 +258,7 @@ footer
     width: 100%;
     text-align: justify;
   }
-  .section2content .title
+  .information .title
   {
     display: block;
     text-align: center;
@@ -269,7 +269,7 @@ footer
   and (max-device-width: 950px)
   and (min-device-width: 500px) {
 
-    header
+    .head_container
     {
       width: 60rem;
     }
@@ -333,7 +333,7 @@ footer
       margin-top: 2rem;
       margin-bottom: 0rem;
     }
-    .section2content .title
+    .information .title
     {
       display: block;
       text-align: center;
@@ -343,7 +343,7 @@ footer
     {
       margin-bottom: 1rem;
     }
-    .section2content .subtitle
+    .information .subtitle
     {
       display: block;
       text-align: center;
@@ -364,7 +364,7 @@ footer
   and (min-device-width: 950px)
   and (max-device-width: 1073px)
   {
-    header
+    .head_container
     {
       width: 80em;
     }
@@ -388,7 +388,7 @@ footer
     .horizontal_row_type2{
       width: 66em;
     }
-    .innerheader
+    header
     {
       margin-left: -4em;
     }
@@ -401,7 +401,7 @@ footer
   @media only screen 
   and (min-device-width: 1369px)
   {
-      .main-button
+      .continue-button
       {
         margin-top: 1.5em;
       }
