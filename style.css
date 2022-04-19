@@ -81,7 +81,7 @@ margin-bottom: 2rem;
   color:#273852;
   display: flex;
 }
-.main_title_container
+.title_container
 {
   margin-left: 9rem;
   color: #273852;
@@ -196,7 +196,7 @@ footer
     width: 100%;
     margin-bottom: 5%;
   }
-  .main_title_container
+  .title_container
   {
   text-align: center;    
   order: -1;
@@ -301,7 +301,7 @@ footer
     {
       width: 50rem;
     }
-    .main_title_container
+    .title_container
     {
     text-align: center;    
     order: -1;
